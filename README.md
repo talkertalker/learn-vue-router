@@ -10,3 +10,7 @@ It very quickly turned also into a project about learning how to plugin ESlint a
 ## To run
 
 `npm start` or `npm run dev`
+
+## To build for production with minification
+
+`npm run build`

@@ -1,5 +1,6 @@
 <template>
   <div class="spinning-square-component">
+    <h2>Alter CSS</h2>
     <h3>Handle events and change CSS easily by using state.</h3>
     <p>Vue even allows you to use inline conditional statements to designate class names.</p>
     <div v-bind:class="[isFast ? 'fastSpin' : 'slowSpin', 'square']"></div>
@@ -27,6 +28,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+h2 {
+  text-decoration: underline;
+}
 
 .square {
   height: 100px;

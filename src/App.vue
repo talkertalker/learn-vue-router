@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="./assets/homemadelogo.png">
     <h2>Vue is a powerful JavaScript library.</h2>
     <p>Click the links to see some examples of what you can do!</p>
     <nav>

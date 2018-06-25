@@ -1,5 +1,6 @@
 <template>
   <div class="data-binding-demo-component">
+    <h2>Two-way Data Binding</h2>
     <h3>Type something into the input box and watch the DOM update instantly.</h3>
     <input v-model="message" type="text" placeholder="Type something here..."/>
     <p class="output">{{message}}</p>
@@ -19,6 +20,10 @@ export default {
 </script>
 
 <style scoped>
+h2 {
+  text-decoration: underline;
+}
+
 input {
   text-align: center;
 }
@@ -28,7 +33,7 @@ input {
   font-style: italic;
 }
 
-div p:nth-child(4) {
+div p:nth-child(5) {
   margin-top: 20px;
 }
 

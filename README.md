@@ -1,7 +1,7 @@
 # learn-vue-router
-A Vue.js project I'm currently working on to practice the vue-router plugin and the vue-cli.
+A Vue.js project I made to practice the vue-cli tool and vue-router plugin.
 
-It very quickly turned also into a project about learning how to plugin ESlint and include/locate all of its config files after the vue-cli set it up.
+It very quickly turned also into a project about learning how to plugin ESlint and include/locate all of its config files after the vue-cli set it up. This was a good learning experience.
 
 ## To install dependencies
 
